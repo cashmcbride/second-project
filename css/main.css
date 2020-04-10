@@ -1,18 +1,50 @@
+@charset "UTF-8";
+
 body, html {
   text-align: center;
   font-family: Gotham, Helvetica, Arial, sans-serif;
   font-size: 1em;
+  margin: 0;
 }
 
 section {
-  width: 50%;
+  width: 100%;
   margin: auto;
+  color: purple;
+
 }
 
 h1 {
   font-size: 2em;
+  color: purple;
 }
 
 h2 {
   font-size: 1.5em;
+  color: purple;
 }
+@media (min-width: 768px) {
+  body {
+    color:orange;
+  }
+section {
+	color: orange;
+}
+h1 {
+	color: orange;
+}
+h2 {
+	color: orange;
+}
+@media (min-width: 1200px) {
+  body {
+    color:green;
+  }
+section {
+	color: green;
+}
+h1 {
+	color: green;
+}
+h2 {color: green;
+}    
